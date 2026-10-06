@@ -1,0 +1,52 @@
+html{
+    background-image: url('background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: raleway, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1, p{
+    text-align: center;
+    margin:auto;
+}
+label{
+    display: block;
+    margin: 1em;
+}
+
+input, select{
+    display: block;
+    padding: 0.3em;
+    width: 100%;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10;
+}
+
+input[type=submit]:hover,
+input[type=submit]:focus{
+    background-color: rgb(5,129,88);
+    outline: none;
+}
+
+input[type=reset]:hover,
+input[type=reset]:focus{
+    background-color: rgb(129,5,5);
+    outline: none;
+}
+
+input[type=reset],
+input[type=submit]{
+   background-color: rgb(27, 44, 141);
+   color: white;
+   margin-top: 1em;
+   border-radius: 10px;
+}
